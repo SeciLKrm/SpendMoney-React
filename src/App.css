@@ -1,0 +1,72 @@
+.header{
+position:fixed;
+top:0;
+background: linear-gradient(to bottom, #c42d41, #a04f92);
+height: 60px;
+letter-spacing: 1px;
+}
+.empty {
+ background: linear-gradient(to bottom, #2049b8f6, #898fe7);
+  }
+  .products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+ 
+  }
+  .product{
+   margin-top: 80px;
+   width: 30%;
+   height: 450px;
+   }
+   .product img{
+    height: 60%;
+  }
+  
+.product .price{
+color: orangered;
+}
+
+.actions button {
+    height: 40px;
+    padding: 0 15px;
+    flex: 1;
+    cursor: pointer;
+}
+.actions .amount{
+    width: 40px;
+   border: 1px solid gray;
+    
+
+}
+.actions .buy-btn{
+    background-color: rgba(255, 68, 0, 0.623);
+    border: none;
+
+}
+.actions .sell-btn{
+    background-color: rgba(182, 177, 177, 0.801);
+    border: none;
+}
+.basket-wrapper{
+place-items: center;
+}
+.basket-container{
+   border: 1px solid #ddd;
+  margin: 20px 0;
+ 
+}
+.basket-container .total{
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 10px;
+   text-align: right;
+    color: rgba(255, 68, 0, 0.623);
+}
+.basket-item span {
+    color: #999;
+}
+.basket-item {
+  list-style: none;
+    
+}
